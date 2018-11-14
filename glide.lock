@@ -1,0 +1,14 @@
+hash: 7e8316fdc6a27fbc18895e2cefc8b386b89b990248df72ac49f41e8fec49217e
+updated: 2018-11-13T22:32:10.021082+09:00
+imports:
+- name: github.com/ethereum/go-ethereum
+  version: 8bbe72075e4e16442c4e28d999edee12e294329e
+  subpackages:
+  - accounts/abi
+  - accounts/keystore
+  - common
+  - common/hexutil
+  - console
+  - core/types
+  - ethclient
+testImports: []

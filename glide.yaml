@@ -1,0 +1,12 @@
+package: .
+import:
+- package: github.com/ethereum/go-ethereum
+  version: v1.8.17
+  subpackages:
+  - accounts/abi
+  - accounts/keystore
+  - common
+  - common/hexutil
+  - console
+  - core/types
+  - ethclient
