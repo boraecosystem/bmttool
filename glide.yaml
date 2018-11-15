@@ -1,4 +1,4 @@
-package: .
+package: bmttool
 import:
 - package: github.com/ethereum/go-ethereum
   version: v1.8.17
