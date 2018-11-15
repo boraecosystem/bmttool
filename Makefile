@@ -21,7 +21,6 @@ glide.lock: glide.yaml | $(BASE)
 	@touch $@
 
 vendor: glide.lock | $(BASE)
-#	$Q cd $(BASE) && $(GLIDE) --quiet install
 	$Q cd $(BASE) && $(GLIDE) install
 	@ln -sf . vendor/src
 	@touch $@
