@@ -192,7 +192,7 @@ func bulk_func(numThreads int, producer func() func(int) int) {
 func usage() {
 	fmt.Printf(
 		`Usage: bmttool [options...] [deploy <contract.(js|.json)>+ |
-    kv-count | kv-put <key> <value> | kv-get <key> <value> |
+    kv-count | kv-put <key> <value> | kv-get <key> |
     bulk-kv-put <prefix> <start> <end> [<batch>] ]
 
 options:
@@ -206,7 +206,7 @@ options:
 -s <url>  :	geth url. ETH_URL.
 -d <delay>:	delay between trxs (microsecond)
 -t <count>:	number of workers
--q:	silent
+-q        :	silent
 `)
 }
 
